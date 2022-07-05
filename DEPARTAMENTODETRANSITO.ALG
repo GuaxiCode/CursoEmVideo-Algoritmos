@@ -17,6 +17,7 @@ Inicio
          EscrevaL("IDADE:",idadeUsuario," ANO(S)")
          EscrevaL("APTO A TIRAR CARTEIRA")
          Escreva("================================")
+      Senao
          EscrevaL("============ STATUS ============")
          EscrevaL("IDADE:",idadeUsuario," ANO(S)")
          EscrevaL("INAPTO A TIRAR CARTEIRA")
