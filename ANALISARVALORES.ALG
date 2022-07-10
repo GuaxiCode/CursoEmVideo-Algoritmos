@@ -1,8 +1,8 @@
 Algoritmo "analisarValores"
 Var
    primeiroValor, segundoValor, terceiroValor, quartoValor, quintoValor: Real
-   somaValores, mediaValores: Real
-   valoresDiv, valoresNulos, valoresPares, resetarValores: Inteiro
+   somaValores, mediaValores, valoresPares: Real
+   valoresDiv, valoresNulos, resetarValores: Inteiro
    opcaoSair: Caractere
 Inicio
    resetarValores <- (0)
@@ -65,19 +65,19 @@ Inicio
       FimSe
       // Soma dos Pares
       Se (primeiroValor%2=0) Entao
-         valoresPares <- (valoresPares+1)
+         valoresPares <- (valoresPares+primeiroValor)
       FimSe
       Se (segundoValor%2=0) Entao
-         valoresPares <- (valoresPares+1)
+         valoresPares <- (valoresPares+segundoValor)
       FimSe
       Se (terceiroValor%2=0) Entao
-         valoresPares <- (valoresPares+1)
+         valoresPares <- (valoresPares+terceiroValor)
       FimSe
       Se (quartoValor%2=0) Entao
-         valoresPares <- (valoresPares+1)
+         valoresPares <- (valoresPares+quartoValor)
       FimSe
       Se (quintoValor%2=0) Entao
-         valoresPares <- (valoresPares+1)
+         valoresPares <- (valoresPares+quintoValor)
       FimSe
       LimpaTela
       EscrevaL("=================================")
